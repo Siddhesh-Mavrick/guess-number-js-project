@@ -16,6 +16,7 @@ body {
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
+  position: relative;
 }
 
 /* LAYOUT */
@@ -116,4 +117,10 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+.ans {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }

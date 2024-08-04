@@ -17,9 +17,10 @@
 
     <main>
       <section class="left">
-        <input type="number" class="guess" />
+        <input type="text" class="guess" />
         <button class="btn check">Check!</button>
       </section>
+
       <section class="right">
         <p class="message">Start guessing...</p>
         <p class="label-score">💯 Score: <span class="score">20</span></p>
@@ -29,6 +30,9 @@
       </section>
     </main>
     
+    <div class="ans"></div>
+    <audio src="./Assets/sucess.mp3" id="sucess"></audio>
+    <audio src="./Assets/fail.mp3" id="fail"></audio>
     <script src="script.js"></script>
   </body>
 </html>
